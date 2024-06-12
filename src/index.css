@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Harabara';
+  src: url('./fonts/Harabara.ttf') format('truetype');
+}
+.Roboto{
+  font-family: 'Roboto', sans-serif;
+}
+.Inter{
+  font-family: 'Inter', sans-serif;
+}
+body{
+  overflow-x: hidden;
+  color: white;
+}
+
+.Harabara{
+  font-family: 'Harabara', sans-serif;
+}
