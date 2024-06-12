@@ -20,3 +20,19 @@ body{
 .Harabara{
   font-family: 'Harabara', sans-serif;
 }
+
+/* Navbar Styling */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: top 0.3s;
+}
+
+.navbar.show {
+  top: 0;
+}
+
+.navbar.hide {
+  top: -75px;
+}
