@@ -17,7 +17,7 @@ export default function Home() {
         <title> {TITLE} </title>
         <link rel="icon" type="image/svg+xml" />
       </Helmet>
-      <div className='w-screen h-[9661px] bg-gradient-to-b from-[#141414] via-[#1E1E1E] to-[#7A7A7A]'>
+      <div className='w-screen h-[5000px] bg-gradient-to-b from-[#141414] via-[#1E1E1E] to-[#7A7A7A]'>
         <Navbar></Navbar>
         <div className='w-screen gap-16 h-screen justify-center flex flex-row items-center'>
           <div className='flex flex-col'>
@@ -34,7 +34,8 @@ export default function Home() {
           </div>
         </div>
         <div className='w-[screen] flex flex-col justify-center items-center'>
-          <div className='w-[3000px] h-[5000px] bg-[#131313] rounded-full'>
+          <div className='w-[3000px] h-[5000px] bg-[#131313] rounded-tl-full rounded-tr-full'>
+          <div></div>
         </div>
         
 
