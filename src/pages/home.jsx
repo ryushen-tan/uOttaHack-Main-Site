@@ -5,7 +5,7 @@ import { Helmet } from 'react-helmet';
 import Spline from '@splinetool/react-spline';
 
 // Components
-import Navbar from '../components/navbar';
+import Navbar from '../components/Navbar';
 
 // Misc
 import uOttaLogo from '/uOttaHack Logo 1.png';
