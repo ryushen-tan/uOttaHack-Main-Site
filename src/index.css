@@ -21,6 +21,10 @@ body{
   font-family: 'Harabara', sans-serif;
 }
 
+.logo{
+  width: 155px;
+}
+
 /* Navbar Styling */
 .navbar {
   position: fixed;

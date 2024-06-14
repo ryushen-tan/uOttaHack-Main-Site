@@ -6,9 +6,11 @@ import Spline from '@splinetool/react-spline';
 
 // Components
 import Navbar from '../components/Navbar';
+import Description from '../components/Description';
+import History from '../components/History';
 
 // Misc
-import uOttaLogo from '/uOttaHack Logo 1.png';
+// import uOttaLogo from '/uOttaHack Logo 1.png';
 import Achievemenets from '/Achievements.png';
 
 const TITLE = "uOttaHack";
@@ -39,16 +41,12 @@ export default function Home() {
           <div className='w-[3000px] h-[5000px] bg-[#131313] rounded-tl-full rounded-tr-full flex justify-center'>
             <div className='w-[90vw] h-screen mt-[5vw] ml-[-1vw]'>
               <img className='md:flex hidden' src={Achievemenets} alt="Achievemenets Image" />
-              <div className='flex flex-col font-semibold mt-[2vw] text-center Roboto text-[64px] w-full'>
-                <h1>What is uOttaHack?</h1>
-              </div>
+              <Description></Description>
+              <History></History>
             </div>
-
           </div>
         </div>
-          
       </div>
-      
     </>
   );
 }
