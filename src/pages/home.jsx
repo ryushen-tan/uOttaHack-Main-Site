@@ -5,7 +5,7 @@ import { Helmet } from 'react-helmet';
 import Spline from '@splinetool/react-spline';
 
 // Components
-import Navbar from '../components/Navbar.jsx';
+import Navbar from '../components/Navbar';
 import Description from '../components/Description';
 import History from '../components/History';
 
